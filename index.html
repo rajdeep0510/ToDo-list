@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo list</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+        <div class="todoApp">
+            <h2>To_Do List <img src="images/icon.png" alt="icon"></h2>
+            <div class="input">
+                <input type="text" id="input-box" placeholder="Add your task">
+                <button onClick="addtask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="cheaked">1. list items</li>
+                <li>2. list items</li>
+                <li>3. list items</li> -->
+            </ul>
+        </div>
+<link rel="script" href="script.js">
 </body>
+<script src="script.js"></script>
 </html>
